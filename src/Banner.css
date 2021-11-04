@@ -1,0 +1,55 @@
+.banner {
+    margin: 0px 125px;
+    height: 250px;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 16%);
+    border-radius: 12px;
+    padding: 24px 32px;
+    background-color: #F2F7ED;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url("https://d2guulkeunn7d8.cloudfront.net/assets/announcement_banners/alcohol-surface-banner-web@3x-7c8a2803dd3a1f8e31588558cb89775a67cb6c9336a07cf0a528078101be948f.png");
+    object-fit: contain;
+    background-size: auto 250px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.banner h1 {
+    font-size: 42px;
+    line-height: 48px;
+}
+
+.banner p {
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.banner button {
+    padding: 3px 6px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    width: 146px;
+    height: 56px;
+    border-radius: 38px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border-radius: 38px;
+    border-width: 0;
+    background-color: #343538;
+    position: relative;
+    color: #FFFFFF;
+}
